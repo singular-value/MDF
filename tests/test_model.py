@@ -1,3 +1,5 @@
+import json
+
 from modeci_mdf.mdf import Model, Graph, Node, OutputPort, Function
 
 
@@ -58,3 +60,20 @@ def test_func_args_empty_dict():
     Test whether we don't a serialization error when passing empty dicts to Function args
     """
     Function(args={}).to_json()
+
+
+def test_none_json():
+    """Test whether None values are getting dumped properly to JSON. json.dumps() uses null I think."""
+    json_str = Node(id="test_node", parameters={"test": None}).to_json()
+    d = json.loads(json_str)
+    assert d["test_node"]["parameters"]["test"] is None
+
+
+def test_bool_json():
+    """Test whether None values are getting dumped properly to JSON"""
+    json_str = Node(
+        id="test_node", parameters={"test1": True, "test2": False}
+    ).to_json()
+    d = json.loads(json_str)
+    assert d["test_node"]["parameters"]["test1"]
+    assert not d["test_node"]["parameters"]["test2"]
