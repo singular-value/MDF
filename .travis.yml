@@ -11,11 +11,19 @@ python:
 
 # command to install dependencies
 install:
+  # Install NeuroMLlite
   - git clone https://github.com/NeuroML/NeuroMLlite.git
   - cd NeuroMLlite
   - git checkout master  # specific branch of NeuroMLlite to use...
   - python setup.py install
   - cd ..
+  # Install PsyNeuLink
+  - git clone https://github.com/PrincetonUniversity/PsyNeuLink.git
+  - cd PsyNeuLink
+  - git checkout mdf  # specific branch of PsyNeuLink to use...
+  - python setup.py install
+  - cd ..
+  # Install MDF
   - pip install .
 
 
