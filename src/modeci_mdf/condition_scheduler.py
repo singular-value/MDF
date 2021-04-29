@@ -63,7 +63,7 @@ class EvaluableGraphWithConditions(EvaluableGraph):
             for node in ts:
                 for edge in incoming_edges[node]:
                     self.evaluate_edge(edge, array_format=array_format)
-                self.enodes[node.id].evaluate_next(array_format=array_format)
+                self.enodes[node.id].evaluate(array_format=array_format)
 
         if self.verbose:
             print("Trial terminated")
