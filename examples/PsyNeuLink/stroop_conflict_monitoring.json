@@ -74,8 +74,8 @@
             "controller": "CONTROL",
             "edges": {
                 "ControlProjection for TASK[gain]": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "Linear_Function_80": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -103,12 +103,12 @@
                                     "value": 1.0
                                 }
                             },
-                            "name": "Linear Function-81",
+                            "name": "Linear Function-80",
                             "type": {
                                 "generic": "Linear"
                             }
                         }
-                    ],
+                    },
                     "name": "ControlProjection for TASK[gain]",
                     "parameters": {
                         "PNL": {
@@ -135,8 +135,8 @@
                     }
                 },
                 "MappingProjection from Conflict Monitor[OUTCOME] to CONTROL[OUTCOME]": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "LinearMatrix_Function_2": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -169,7 +169,7 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "name": "MappingProjection from Conflict Monitor[OUTCOME] to CONTROL[OUTCOME]",
                     "parameters": {
                         "PNL": {
@@ -195,8 +195,8 @@
                     }
                 },
                 "MappingProjection from OUTPUT[OutputPort-0] to Conflict Monitor[InputPort-0]": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "LinearMatrix_Function_1": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -235,7 +235,7 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "name": "MappingProjection from OUTPUT[OutputPort-0] to Conflict Monitor[InputPort-0]",
                     "parameters": {
                         "PNL": {
@@ -261,8 +261,8 @@
                     }
                 },
                 "MappingProjection from OUTPUT[OutputPort-0] to DECISION[ARRAY]": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "LinearMatrix_Function_14": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -301,7 +301,7 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "name": "MappingProjection from OUTPUT[OutputPort-0] to DECISION[ARRAY]",
                     "parameters": {
                         "PNL": {
@@ -327,8 +327,8 @@
                     }
                 },
                 "MappingProjection from TASK[RESULT] to color_hidden[InputPort-0]": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "LinearMatrix_Function_11": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -367,7 +367,7 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "name": "MappingProjection from TASK[RESULT] to color_hidden[InputPort-0]",
                     "parameters": {
                         "PNL": {
@@ -402,8 +402,8 @@
                     }
                 },
                 "MappingProjection from TASK[RESULT] to word_hidden[InputPort-0]": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "LinearMatrix_Function_13": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -442,7 +442,7 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "name": "MappingProjection from TASK[RESULT] to word_hidden[InputPort-0]",
                     "parameters": {
                         "PNL": {
@@ -477,8 +477,8 @@
                     }
                 },
                 "MappingProjection from color_hidden[OutputPort-0] to OUTPUT[InputPort-0]": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "LinearMatrix_Function_4": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -517,7 +517,7 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "name": "MappingProjection from color_hidden[OutputPort-0] to OUTPUT[InputPort-0]",
                     "parameters": {
                         "PNL": {
@@ -552,8 +552,8 @@
                     }
                 },
                 "MappingProjection from color_input[OutputPort-0] to color_hidden[InputPort-0]": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "LinearMatrix_Function_3": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -592,7 +592,7 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "name": "MappingProjection from color_input[OutputPort-0] to color_hidden[InputPort-0]",
                     "parameters": {
                         "PNL": {
@@ -627,8 +627,8 @@
                     }
                 },
                 "MappingProjection from task_input[OutputPort-0] to TASK[InputPort-0]": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "LinearMatrix_Function_10": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -667,7 +667,7 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "name": "MappingProjection from task_input[OutputPort-0] to TASK[InputPort-0]",
                     "parameters": {
                         "PNL": {
@@ -693,8 +693,8 @@
                     }
                 },
                 "MappingProjection from word_hidden[OutputPort-0] to OUTPUT[InputPort-0]": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "LinearMatrix_Function_8": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -733,7 +733,7 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "name": "MappingProjection from word_hidden[OutputPort-0] to OUTPUT[InputPort-0]",
                     "parameters": {
                         "PNL": {
@@ -768,8 +768,8 @@
                     }
                 },
                 "MappingProjection from word_input[OutputPort-0] to word_hidden[InputPort-0]": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "LinearMatrix_Function_7": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -808,7 +808,7 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "name": "MappingProjection from word_input[OutputPort-0] to word_hidden[InputPort-0]",
                     "parameters": {
                         "PNL": {
@@ -843,8 +843,8 @@
                     }
                 },
                 "TASK recurrent projection": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "LinearMatrix_Function_0": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -883,7 +883,7 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "name": "TASK recurrent projection",
                     "parameters": {
                         "PNL": {
@@ -923,8 +923,8 @@
             "name": "Stroop_model",
             "nodes": {
                 "CONTROL": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "Default_Control_Function_0": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -950,12 +950,12 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "input_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "LinearCombination_Function_11": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -977,13 +977,13 @@
                                         "scale": 1.0,
                                         "weights": null
                                     },
-                                    "name": "LinearCombination Function-33",
+                                    "name": "LinearCombination Function-11",
                                     "type": {
                                         "PNL": "LinearCombination",
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "name": "OUTCOME",
                             "parameters": {
                                 "PNL": {
@@ -1017,8 +1017,8 @@
                     "output_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "TransferWithCosts_Function_0": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -1067,7 +1067,7 @@
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "name": "TASK[gain] ControlSignal",
                             "parameters": {
                                 "PNL": {
@@ -1132,7 +1132,7 @@
                             ]
                         },
                         "combine_costs": "gANjbnVtcHkKc3VtCnEALg==\n",
-                        "compute_net_outcome": "gANjZGlsbC5fZGlsbApfY3JlYXRlX2Z1bmN0aW9uCnEAKGNkaWxsLl9kaWxsCl9jcmVhdGVfY29k\nZQpxAShLAksASwJLAktDQwh8AHwBGABTAHECToVxAylYBwAAAG91dGNvbWVxBFgEAAAAY29zdHEF\nhnEGWGwAAAAvaG9tZS9rYXRoZXJpbmUvY29kZS9Qc3lOZXVMaW5rL3BzeW5ldWxpbmsvY29yZS9j\nb21wb25lbnRzL21lY2hhbmlzbXMvbW9kdWxhdG9yeS9jb250cm9sL2NvbnRyb2xtZWNoYW5pc20u\ncHlxB1gIAAAAPGxhbWJkYT5xCE1FBEMAcQkpKXRxClJxC2Nwc3luZXVsaW5rLmNvcmUuY29tcG9u\nZW50cy5tZWNoYW5pc21zLm1vZHVsYXRvcnkuY29udHJvbC5jb250cm9sbWVjaGFuaXNtCl9fZGlj\ndF9fCmgITk59cQxOdHENUnEOLg==\n",
+                        "compute_net_outcome": "gANjZGlsbC5fZGlsbApfY3JlYXRlX2Z1bmN0aW9uCnEAKGNkaWxsLl9kaWxsCl9jcmVhdGVfY29k\nZQpxAShLAksASwJLAktDQwh8AHwBGABTAHECToVxAylYBwAAAG91dGNvbWVxBFgEAAAAY29zdHEF\nhnEGWGwAAAAvaG9tZS9rYXRoZXJpbmUvY29kZS9Qc3lOZXVMaW5rL3BzeW5ldWxpbmsvY29yZS9j\nb21wb25lbnRzL21lY2hhbmlzbXMvbW9kdWxhdG9yeS9jb250cm9sL2NvbnRyb2xtZWNoYW5pc20u\ncHlxB1gIAAAAPGxhbWJkYT5xCE1GBEMAcQkpKXRxClJxC2Nwc3luZXVsaW5rLmNvcmUuY29tcG9u\nZW50cy5tZWNoYW5pc21zLm1vZHVsYXRvcnkuY29udHJvbC5jb250cm9sbWVjaGFuaXNtCl9fZGlj\ndF9fCmgITk59cQxOdHENUnEOLg==\n",
                         "compute_reconfiguration_cost": null,
                         "costs": null,
                         "default_allocation": [
@@ -1148,8 +1148,8 @@
                         "num_executions": "Time(life=0, pass_=0, run=0, time_step=0, trial=0)",
                         "num_executions_before_finished": 0,
                         "objective_mechanism": {
-                            "functions": [
-                                {
+                            "functions": {
+                                "Stability_Function_0": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -1189,12 +1189,12 @@
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "input_ports": [
                                 {
                                     "dtype": "float64",
-                                    "functions": [
-                                        {
+                                    "functions": {
+                                        "LinearCombination_Function_8": {
                                             "args": {
                                                 "PNL": {
                                                     "enable_output_type_conversion": false,
@@ -1219,13 +1219,13 @@
                                                 "scale": 1.0,
                                                 "weights": null
                                             },
-                                            "name": "LinearCombination Function-30",
+                                            "name": "LinearCombination Function-8",
                                             "type": {
                                                 "PNL": "LinearCombination",
                                                 "generic": null
                                             }
                                         }
-                                    ],
+                                    },
                                     "name": "Value of OUTPUT [OutputPort-0]",
                                     "parameters": {
                                         "PNL": {
@@ -1271,8 +1271,8 @@
                             "output_ports": [
                                 {
                                     "dtype": "float64",
-                                    "functions": [
-                                        {
+                                    "functions": {
+                                        "Linear_Function_69": {
                                             "args": {
                                                 "PNL": {
                                                     "enable_output_type_conversion": false,
@@ -1292,12 +1292,12 @@
                                                 "num_executions_before_finished": 0,
                                                 "slope": 1.0
                                             },
-                                            "name": "Linear Function-70",
+                                            "name": "Linear Function-69",
                                             "type": {
                                                 "generic": "Linear"
                                             }
                                         }
-                                    ],
+                                    },
                                     "name": "OUTCOME",
                                     "parameters": {
                                         "PNL": {
@@ -1339,8 +1339,8 @@
                                 "execute_until_finished": true,
                                 "input_ports": [
                                     {
-                                        "functions": [
-                                            {
+                                        "functions": {
+                                            "Logistic_Function_3": {
                                                 "args": {
                                                     "PNL": {
                                                         "enable_output_type_conversion": false,
@@ -1389,17 +1389,17 @@
                                                         "value": 0.0
                                                     }
                                                 },
-                                                "name": "Logistic Function-1",
+                                                "name": "Logistic Function-3",
                                                 "type": {
                                                     "generic": "Logistic"
                                                 }
                                             }
-                                        ],
+                                        },
                                         "input_ports": [
                                             {
                                                 "dtype": "float64",
-                                                "functions": [
-                                                    {
+                                                "functions": {
+                                                    "LinearCombination_Function_0_8": {
                                                         "args": {
                                                             "PNL": {
                                                                 "enable_output_type_conversion": false,
@@ -1428,13 +1428,13 @@
                                                             "scale": 1.0,
                                                             "weights": null
                                                         },
-                                                        "name": "LinearCombination Function-13",
+                                                        "name": "LinearCombination Function-0-8",
                                                         "type": {
                                                             "PNL": "LinearCombination",
                                                             "generic": null
                                                         }
                                                     }
-                                                ],
+                                                },
                                                 "name": "InputPort-0",
                                                 "parameters": {
                                                     "PNL": {
@@ -1472,8 +1472,8 @@
                                             },
                                             {
                                                 "dtype": "float64",
-                                                "functions": [
-                                                    {
+                                                "functions": {
+                                                    "Linear_Function_14": {
                                                         "args": {
                                                             "PNL": {
                                                                 "enable_output_type_conversion": false,
@@ -1493,12 +1493,12 @@
                                                             "num_executions_before_finished": 0,
                                                             "slope": 1.0
                                                         },
-                                                        "name": "Linear Function-17",
+                                                        "name": "Linear Function-14",
                                                         "type": {
                                                             "generic": "Linear"
                                                         }
                                                     }
-                                                ],
+                                                },
                                                 "name": "bias",
                                                 "parameters": {
                                                     "PNL": {
@@ -1524,8 +1524,8 @@
                                             },
                                             {
                                                 "dtype": "float64",
-                                                "functions": [
-                                                    {
+                                                "functions": {
+                                                    "Linear_Function_12": {
                                                         "args": {
                                                             "PNL": {
                                                                 "enable_output_type_conversion": false,
@@ -1545,12 +1545,12 @@
                                                             "num_executions_before_finished": 0,
                                                             "slope": 1.0
                                                         },
-                                                        "name": "Linear Function-13",
+                                                        "name": "Linear Function-12",
                                                         "type": {
                                                             "generic": "Linear"
                                                         }
                                                     }
-                                                ],
+                                                },
                                                 "name": "gain",
                                                 "parameters": {
                                                     "PNL": {
@@ -1576,8 +1576,8 @@
                                             },
                                             {
                                                 "dtype": "float64",
-                                                "functions": [
-                                                    {
+                                                "functions": {
+                                                    "Linear_Function_16": {
                                                         "args": {
                                                             "PNL": {
                                                                 "enable_output_type_conversion": false,
@@ -1597,12 +1597,12 @@
                                                             "num_executions_before_finished": 0,
                                                             "slope": 1.0
                                                         },
-                                                        "name": "Linear Function-14",
+                                                        "name": "Linear Function-16",
                                                         "type": {
                                                             "generic": "Linear"
                                                         }
                                                     }
-                                                ],
+                                                },
                                                 "name": "offset",
                                                 "parameters": {
                                                     "PNL": {
@@ -1628,8 +1628,8 @@
                                             },
                                             {
                                                 "dtype": "float64",
-                                                "functions": [
-                                                    {
+                                                "functions": {
+                                                    "Linear_Function_15": {
                                                         "args": {
                                                             "PNL": {
                                                                 "enable_output_type_conversion": false,
@@ -1649,12 +1649,12 @@
                                                             "num_executions_before_finished": 0,
                                                             "slope": 1.0
                                                         },
-                                                        "name": "Linear Function-16",
+                                                        "name": "Linear Function-15",
                                                         "type": {
                                                             "generic": "Linear"
                                                         }
                                                     }
-                                                ],
+                                                },
                                                 "name": "scale",
                                                 "parameters": {
                                                     "PNL": {
@@ -1680,8 +1680,8 @@
                                             },
                                             {
                                                 "dtype": "float64",
-                                                "functions": [
-                                                    {
+                                                "functions": {
+                                                    "Linear_Function_13": {
                                                         "args": {
                                                             "PNL": {
                                                                 "enable_output_type_conversion": false,
@@ -1701,12 +1701,12 @@
                                                             "num_executions_before_finished": 0,
                                                             "slope": 1.0
                                                         },
-                                                        "name": "Linear Function-15",
+                                                        "name": "Linear Function-13",
                                                         "type": {
                                                             "generic": "Linear"
                                                         }
                                                     }
-                                                ],
+                                                },
                                                 "name": "x_0",
                                                 "parameters": {
                                                     "PNL": {
@@ -1735,8 +1735,8 @@
                                         "output_ports": [
                                             {
                                                 "dtype": "float64",
-                                                "functions": [
-                                                    {
+                                                "functions": {
+                                                    "Linear_Function_18": {
                                                         "args": {
                                                             "PNL": {
                                                                 "enable_output_type_conversion": false,
@@ -1757,12 +1757,12 @@
                                                             "num_executions_before_finished": 0,
                                                             "slope": 1.0
                                                         },
-                                                        "name": "Linear Function-19",
+                                                        "name": "Linear Function-18",
                                                         "type": {
                                                             "generic": "Linear"
                                                         }
                                                     }
-                                                ],
+                                                },
                                                 "name": "OutputPort-0",
                                                 "parameters": {
                                                     "PNL": {
@@ -1832,8 +1832,8 @@
                         "output_ports": [
                             {
                                 "MECHANISM": {
-                                    "functions": [
-                                        {
+                                    "functions": {
+                                        "Logistic_Function_7": {
                                             "args": {
                                                 "PNL": {
                                                     "enable_output_type_conversion": false,
@@ -1874,17 +1874,17 @@
                                                     "value": 0.0
                                                 }
                                             },
-                                            "name": "Logistic Function-5",
+                                            "name": "Logistic Function-7",
                                             "type": {
                                                 "generic": "Logistic"
                                             }
                                         }
-                                    ],
+                                    },
                                     "input_ports": [
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "LinearCombination_Function_5": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -1913,13 +1913,13 @@
                                                         "scale": 1.0,
                                                         "weights": null
                                                     },
-                                                    "name": "LinearCombination Function-27",
+                                                    "name": "LinearCombination Function-5",
                                                     "type": {
                                                         "PNL": "LinearCombination",
                                                         "generic": null
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "InputPort-0",
                                             "parameters": {
                                                 "PNL": {
@@ -1957,8 +1957,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_49": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -1978,12 +1978,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-50",
+                                                    "name": "Linear Function-49",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "auto",
                                             "parameters": {
                                                 "PNL": {
@@ -2009,8 +2009,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_46": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2030,12 +2030,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-44",
+                                                    "name": "Linear Function-46",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "bias",
                                             "parameters": {
                                                 "PNL": {
@@ -2061,8 +2061,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_47": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2082,12 +2082,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-51",
+                                                    "name": "Linear Function-47",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "competition",
                                             "parameters": {
                                                 "PNL": {
@@ -2113,8 +2113,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_44": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2134,12 +2134,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-37",
+                                                    "name": "Linear Function-44",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "gain",
                                             "parameters": {
                                                 "PNL": {
@@ -2165,8 +2165,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_50": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2186,12 +2186,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-49",
+                                                    "name": "Linear Function-50",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "hetero",
                                             "parameters": {
                                                 "PNL": {
@@ -2217,8 +2217,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_37": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2238,12 +2238,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-45",
+                                                    "name": "Linear Function-37",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "noise",
                                             "parameters": {
                                                 "PNL": {
@@ -2269,8 +2269,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_39": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2290,12 +2290,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-38",
+                                                    "name": "Linear Function-39",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "offset-combination_function",
                                             "parameters": {
                                                 "PNL": {
@@ -2321,8 +2321,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_38": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2342,12 +2342,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-39",
+                                                    "name": "Linear Function-38",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "offset-function",
                                             "parameters": {
                                                 "PNL": {
@@ -2373,8 +2373,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_40": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2399,7 +2399,7 @@
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "offset-integrator_function",
                                             "parameters": {
                                                 "PNL": {
@@ -2425,8 +2425,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_41": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2446,12 +2446,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-46",
+                                                    "name": "Linear Function-41",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "rate",
                                             "parameters": {
                                                 "PNL": {
@@ -2477,8 +2477,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_43": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2498,12 +2498,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-42",
+                                                    "name": "Linear Function-43",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "scale-combination_function",
                                             "parameters": {
                                                 "PNL": {
@@ -2529,8 +2529,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_42": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2550,12 +2550,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-43",
+                                                    "name": "Linear Function-42",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "scale-function",
                                             "parameters": {
                                                 "PNL": {
@@ -2581,8 +2581,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_48": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2607,7 +2607,7 @@
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "smoothing_factor",
                                             "parameters": {
                                                 "PNL": {
@@ -2633,8 +2633,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_36": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2654,12 +2654,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-47",
+                                                    "name": "Linear Function-36",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "time_step_size",
                                             "parameters": {
                                                 "PNL": {
@@ -2685,8 +2685,8 @@
                                         },
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_45": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2706,12 +2706,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-41",
+                                                    "name": "Linear Function-45",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "x_0",
                                             "parameters": {
                                                 "PNL": {
@@ -2740,8 +2740,8 @@
                                     "output_ports": [
                                         {
                                             "dtype": "float64",
-                                            "functions": [
-                                                {
+                                            "functions": {
+                                                "Linear_Function_53": {
                                                     "args": {
                                                         "PNL": {
                                                             "enable_output_type_conversion": false,
@@ -2762,12 +2762,12 @@
                                                         "num_executions_before_finished": 0,
                                                         "slope": 1.0
                                                     },
-                                                    "name": "Linear Function-54",
+                                                    "name": "Linear Function-53",
                                                     "type": {
                                                         "generic": "Linear"
                                                     }
                                                 }
-                                            ],
+                                            },
                                             "name": "RESULT",
                                             "parameters": {
                                                 "PNL": {
@@ -2839,7 +2839,7 @@
                                         "noise": 0.0,
                                         "num_executions": "Time(life=0, pass_=0, run=0, time_step=0, trial=0)",
                                         "num_executions_before_finished": 0,
-                                        "on_resume_integrator_mode": "instantaneous_mode_value",
+                                        "on_resume_integrator_mode": "current_value",
                                         "output_ports": [
                                             "RESULTS"
                                         ],
@@ -2866,8 +2866,8 @@
                     }
                 },
                 "Conflict Monitor": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "Stability_Function_0": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -2907,12 +2907,12 @@
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "input_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "LinearCombination_Function_8": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -2937,13 +2937,13 @@
                                         "scale": 1.0,
                                         "weights": null
                                     },
-                                    "name": "LinearCombination Function-30",
+                                    "name": "LinearCombination Function-8",
                                     "type": {
                                         "PNL": "LinearCombination",
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "name": "Value of OUTPUT [OutputPort-0]",
                             "parameters": {
                                 "PNL": {
@@ -2989,8 +2989,8 @@
                     "output_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_69": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -3010,12 +3010,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-70",
+                                    "name": "Linear Function-69",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "OUTCOME",
                             "parameters": {
                                 "PNL": {
@@ -3057,8 +3057,8 @@
                         "execute_until_finished": true,
                         "input_ports": [
                             {
-                                "functions": [
-                                    {
+                                "functions": {
+                                    "Logistic_Function_3": {
                                         "args": {
                                             "PNL": {
                                                 "enable_output_type_conversion": false,
@@ -3107,17 +3107,17 @@
                                                 "value": 0.0
                                             }
                                         },
-                                        "name": "Logistic Function-1",
+                                        "name": "Logistic Function-3",
                                         "type": {
                                             "generic": "Logistic"
                                         }
                                     }
-                                ],
+                                },
                                 "input_ports": [
                                     {
                                         "dtype": "float64",
-                                        "functions": [
-                                            {
+                                        "functions": {
+                                            "LinearCombination_Function_0_8": {
                                                 "args": {
                                                     "PNL": {
                                                         "enable_output_type_conversion": false,
@@ -3146,13 +3146,13 @@
                                                     "scale": 1.0,
                                                     "weights": null
                                                 },
-                                                "name": "LinearCombination Function-13",
+                                                "name": "LinearCombination Function-0-8",
                                                 "type": {
                                                     "PNL": "LinearCombination",
                                                     "generic": null
                                                 }
                                             }
-                                        ],
+                                        },
                                         "name": "InputPort-0",
                                         "parameters": {
                                             "PNL": {
@@ -3190,8 +3190,8 @@
                                     },
                                     {
                                         "dtype": "float64",
-                                        "functions": [
-                                            {
+                                        "functions": {
+                                            "Linear_Function_14": {
                                                 "args": {
                                                     "PNL": {
                                                         "enable_output_type_conversion": false,
@@ -3211,12 +3211,12 @@
                                                     "num_executions_before_finished": 0,
                                                     "slope": 1.0
                                                 },
-                                                "name": "Linear Function-17",
+                                                "name": "Linear Function-14",
                                                 "type": {
                                                     "generic": "Linear"
                                                 }
                                             }
-                                        ],
+                                        },
                                         "name": "bias",
                                         "parameters": {
                                             "PNL": {
@@ -3242,8 +3242,8 @@
                                     },
                                     {
                                         "dtype": "float64",
-                                        "functions": [
-                                            {
+                                        "functions": {
+                                            "Linear_Function_12": {
                                                 "args": {
                                                     "PNL": {
                                                         "enable_output_type_conversion": false,
@@ -3263,12 +3263,12 @@
                                                     "num_executions_before_finished": 0,
                                                     "slope": 1.0
                                                 },
-                                                "name": "Linear Function-13",
+                                                "name": "Linear Function-12",
                                                 "type": {
                                                     "generic": "Linear"
                                                 }
                                             }
-                                        ],
+                                        },
                                         "name": "gain",
                                         "parameters": {
                                             "PNL": {
@@ -3294,8 +3294,8 @@
                                     },
                                     {
                                         "dtype": "float64",
-                                        "functions": [
-                                            {
+                                        "functions": {
+                                            "Linear_Function_16": {
                                                 "args": {
                                                     "PNL": {
                                                         "enable_output_type_conversion": false,
@@ -3315,12 +3315,12 @@
                                                     "num_executions_before_finished": 0,
                                                     "slope": 1.0
                                                 },
-                                                "name": "Linear Function-14",
+                                                "name": "Linear Function-16",
                                                 "type": {
                                                     "generic": "Linear"
                                                 }
                                             }
-                                        ],
+                                        },
                                         "name": "offset",
                                         "parameters": {
                                             "PNL": {
@@ -3346,8 +3346,8 @@
                                     },
                                     {
                                         "dtype": "float64",
-                                        "functions": [
-                                            {
+                                        "functions": {
+                                            "Linear_Function_15": {
                                                 "args": {
                                                     "PNL": {
                                                         "enable_output_type_conversion": false,
@@ -3367,12 +3367,12 @@
                                                     "num_executions_before_finished": 0,
                                                     "slope": 1.0
                                                 },
-                                                "name": "Linear Function-16",
+                                                "name": "Linear Function-15",
                                                 "type": {
                                                     "generic": "Linear"
                                                 }
                                             }
-                                        ],
+                                        },
                                         "name": "scale",
                                         "parameters": {
                                             "PNL": {
@@ -3398,8 +3398,8 @@
                                     },
                                     {
                                         "dtype": "float64",
-                                        "functions": [
-                                            {
+                                        "functions": {
+                                            "Linear_Function_13": {
                                                 "args": {
                                                     "PNL": {
                                                         "enable_output_type_conversion": false,
@@ -3419,12 +3419,12 @@
                                                     "num_executions_before_finished": 0,
                                                     "slope": 1.0
                                                 },
-                                                "name": "Linear Function-15",
+                                                "name": "Linear Function-13",
                                                 "type": {
                                                     "generic": "Linear"
                                                 }
                                             }
-                                        ],
+                                        },
                                         "name": "x_0",
                                         "parameters": {
                                             "PNL": {
@@ -3453,8 +3453,8 @@
                                 "output_ports": [
                                     {
                                         "dtype": "float64",
-                                        "functions": [
-                                            {
+                                        "functions": {
+                                            "Linear_Function_18": {
                                                 "args": {
                                                     "PNL": {
                                                         "enable_output_type_conversion": false,
@@ -3475,12 +3475,12 @@
                                                     "num_executions_before_finished": 0,
                                                     "slope": 1.0
                                                 },
-                                                "name": "Linear Function-19",
+                                                "name": "Linear Function-18",
                                                 "type": {
                                                     "generic": "Linear"
                                                 }
                                             }
-                                        ],
+                                        },
                                         "name": "OutputPort-0",
                                         "parameters": {
                                             "PNL": {
@@ -3548,8 +3548,8 @@
                     }
                 },
                 "DECISION": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "Drift_Diffusion_Analytical_Function_0_2": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -3594,18 +3594,18 @@
                                     "value": 1.0
                                 }
                             },
-                            "name": "Drift Diffusion Analytical Function-0-3",
+                            "name": "Drift Diffusion Analytical Function-0-2",
                             "type": {
                                 "PNL": "DriftDiffusionAnalytical",
                                 "generic": null
                             }
                         }
-                    ],
+                    },
                     "input_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Reduce_Function_0": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -3639,7 +3639,7 @@
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "name": "ARRAY",
                             "parameters": {
                                 "PNL": {
@@ -3673,8 +3673,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_58": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -3694,12 +3694,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-59",
+                                    "name": "Linear Function-58",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "drift_rate",
                             "parameters": {
                                 "PNL": {
@@ -3725,8 +3725,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_59": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -3746,12 +3746,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-56",
+                                    "name": "Linear Function-59",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "noise",
                             "parameters": {
                                 "PNL": {
@@ -3777,8 +3777,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_56": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -3798,12 +3798,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-57",
+                                    "name": "Linear Function-56",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "starting_point",
                             "parameters": {
                                 "PNL": {
@@ -3829,8 +3829,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_57": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -3850,12 +3850,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-60",
+                                    "name": "Linear Function-57",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "t0",
                             "parameters": {
                                 "PNL": {
@@ -3881,8 +3881,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_55": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -3902,12 +3902,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-58",
+                                    "name": "Linear Function-55",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "threshold",
                             "parameters": {
                                 "PNL": {
@@ -3936,8 +3936,8 @@
                     "output_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_63": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -3945,7 +3945,7 @@
                                             "has_initializers": false,
                                             "output_type": 3,
                                             "variable": [
-                                                1.0
+                                                -1.0
                                             ]
                                         },
                                         "bounds": null,
@@ -3957,12 +3957,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-64",
+                                    "name": "Linear Function-63",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "DECISION_VARIABLE",
                             "parameters": {
                                 "PNL": {
@@ -3970,7 +3970,7 @@
                                     "has_initializers": false,
                                     "require_projection_in_composition": true,
                                     "variable": [
-                                        1.0
+                                        -1.0
                                     ]
                                 },
                                 "execute_until_finished": true,
@@ -3988,8 +3988,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_65": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4009,12 +4009,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-66",
+                                    "name": "Linear Function-65",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "RESPONSE_TIME",
                             "parameters": {
                                 "PNL": {
@@ -4112,7 +4112,7 @@
                             "DECISION_VARIABLE",
                             "RESPONSE_TIME"
                         ],
-                        "random_state": "numpy.random.RandomState(<built-in method seed of numpy.random.mtrand.RandomState object at 0x7fa080e90468>)"
+                        "random_state": "numpy.random.RandomState(<built-in method seed of numpy.random.mtrand.RandomState object at 0x7f52024419e0>)"
                     },
                     "type": {
                         "PNL": "DDM",
@@ -4120,8 +4120,8 @@
                     }
                 },
                 "OUTPUT": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "Logistic_Function_3": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -4170,17 +4170,17 @@
                                     "value": 0.0
                                 }
                             },
-                            "name": "Logistic Function-1",
+                            "name": "Logistic Function-3",
                             "type": {
                                 "generic": "Logistic"
                             }
                         }
-                    ],
+                    },
                     "input_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "LinearCombination_Function_0_8": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4209,13 +4209,13 @@
                                         "scale": 1.0,
                                         "weights": null
                                     },
-                                    "name": "LinearCombination Function-13",
+                                    "name": "LinearCombination Function-0-8",
                                     "type": {
                                         "PNL": "LinearCombination",
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "name": "InputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -4253,8 +4253,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_14": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4274,12 +4274,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-17",
+                                    "name": "Linear Function-14",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "bias",
                             "parameters": {
                                 "PNL": {
@@ -4305,8 +4305,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_12": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4326,12 +4326,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-13",
+                                    "name": "Linear Function-12",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "gain",
                             "parameters": {
                                 "PNL": {
@@ -4357,8 +4357,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_16": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4378,12 +4378,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-14",
+                                    "name": "Linear Function-16",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "offset",
                             "parameters": {
                                 "PNL": {
@@ -4409,8 +4409,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_15": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4430,12 +4430,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-16",
+                                    "name": "Linear Function-15",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "scale",
                             "parameters": {
                                 "PNL": {
@@ -4461,8 +4461,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_13": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4482,12 +4482,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-15",
+                                    "name": "Linear Function-13",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "x_0",
                             "parameters": {
                                 "PNL": {
@@ -4516,8 +4516,8 @@
                     "output_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_18": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4538,12 +4538,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-19",
+                                    "name": "Linear Function-18",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "OutputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -4597,8 +4597,8 @@
                     }
                 },
                 "TASK": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "Logistic_Function_7": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -4639,17 +4639,17 @@
                                     "value": 0.0
                                 }
                             },
-                            "name": "Logistic Function-5",
+                            "name": "Logistic Function-7",
                             "type": {
                                 "generic": "Logistic"
                             }
                         }
-                    ],
+                    },
                     "input_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "LinearCombination_Function_5": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4678,13 +4678,13 @@
                                         "scale": 1.0,
                                         "weights": null
                                     },
-                                    "name": "LinearCombination Function-27",
+                                    "name": "LinearCombination Function-5",
                                     "type": {
                                         "PNL": "LinearCombination",
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "name": "InputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -4722,8 +4722,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_49": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4743,12 +4743,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-50",
+                                    "name": "Linear Function-49",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "auto",
                             "parameters": {
                                 "PNL": {
@@ -4774,8 +4774,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_46": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4795,12 +4795,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-44",
+                                    "name": "Linear Function-46",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "bias",
                             "parameters": {
                                 "PNL": {
@@ -4826,8 +4826,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_47": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4847,12 +4847,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-51",
+                                    "name": "Linear Function-47",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "competition",
                             "parameters": {
                                 "PNL": {
@@ -4878,8 +4878,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_44": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4899,12 +4899,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-37",
+                                    "name": "Linear Function-44",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "gain",
                             "parameters": {
                                 "PNL": {
@@ -4930,8 +4930,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_50": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -4951,12 +4951,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-49",
+                                    "name": "Linear Function-50",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "hetero",
                             "parameters": {
                                 "PNL": {
@@ -4982,8 +4982,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_37": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5003,12 +5003,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-45",
+                                    "name": "Linear Function-37",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "noise",
                             "parameters": {
                                 "PNL": {
@@ -5034,8 +5034,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_39": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5055,12 +5055,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-38",
+                                    "name": "Linear Function-39",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "offset-combination_function",
                             "parameters": {
                                 "PNL": {
@@ -5086,8 +5086,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_38": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5107,12 +5107,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-39",
+                                    "name": "Linear Function-38",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "offset-function",
                             "parameters": {
                                 "PNL": {
@@ -5138,8 +5138,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_40": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5164,7 +5164,7 @@
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "offset-integrator_function",
                             "parameters": {
                                 "PNL": {
@@ -5190,8 +5190,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_41": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5211,12 +5211,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-46",
+                                    "name": "Linear Function-41",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "rate",
                             "parameters": {
                                 "PNL": {
@@ -5242,8 +5242,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_43": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5263,12 +5263,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-42",
+                                    "name": "Linear Function-43",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "scale-combination_function",
                             "parameters": {
                                 "PNL": {
@@ -5294,8 +5294,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_42": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5315,12 +5315,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-43",
+                                    "name": "Linear Function-42",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "scale-function",
                             "parameters": {
                                 "PNL": {
@@ -5346,8 +5346,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_48": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5372,7 +5372,7 @@
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "smoothing_factor",
                             "parameters": {
                                 "PNL": {
@@ -5398,8 +5398,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_36": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5419,12 +5419,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-47",
+                                    "name": "Linear Function-36",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "time_step_size",
                             "parameters": {
                                 "PNL": {
@@ -5450,8 +5450,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_45": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5471,12 +5471,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-41",
+                                    "name": "Linear Function-45",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "x_0",
                             "parameters": {
                                 "PNL": {
@@ -5505,8 +5505,8 @@
                     "output_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_53": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5527,12 +5527,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-54",
+                                    "name": "Linear Function-53",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "RESULT",
                             "parameters": {
                                 "PNL": {
@@ -5604,7 +5604,7 @@
                         "noise": 0.0,
                         "num_executions": "Time(life=0, pass_=0, run=0, time_step=0, trial=0)",
                         "num_executions_before_finished": 0,
-                        "on_resume_integrator_mode": "instantaneous_mode_value",
+                        "on_resume_integrator_mode": "current_value",
                         "output_ports": [
                             "RESULTS"
                         ],
@@ -5621,8 +5621,8 @@
                     }
                 },
                 "color_hidden": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "Logistic_Function_0": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -5676,12 +5676,12 @@
                                 "generic": "Logistic"
                             }
                         }
-                    ],
+                    },
                     "input_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "LinearCombination_Function_0_5": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5710,13 +5710,13 @@
                                         "scale": 1.0,
                                         "weights": null
                                     },
-                                    "name": "LinearCombination Function-10",
+                                    "name": "LinearCombination Function-0-5",
                                     "type": {
                                         "PNL": "LinearCombination",
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "name": "InputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -5754,8 +5754,8 @@
                         },
                         {
                             "dtype": "int64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_7": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5775,12 +5775,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-10",
+                                    "name": "Linear Function-7",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "bias",
                             "parameters": {
                                 "PNL": {
@@ -5806,8 +5806,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_5": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5827,12 +5827,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-6",
+                                    "name": "Linear Function-5",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "gain",
                             "parameters": {
                                 "PNL": {
@@ -5858,8 +5858,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_9": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5879,12 +5879,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-7",
+                                    "name": "Linear Function-9",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "offset",
                             "parameters": {
                                 "PNL": {
@@ -5910,8 +5910,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_8": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5931,12 +5931,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-9",
+                                    "name": "Linear Function-8",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "scale",
                             "parameters": {
                                 "PNL": {
@@ -5962,8 +5962,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_6": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -5983,12 +5983,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-8",
+                                    "name": "Linear Function-6",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "x_0",
                             "parameters": {
                                 "PNL": {
@@ -6017,8 +6017,8 @@
                     "output_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_11": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6039,12 +6039,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-12",
+                                    "name": "Linear Function-11",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "OutputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -6098,8 +6098,8 @@
                     }
                 },
                 "color_input": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "Linear_Function_2": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -6130,17 +6130,17 @@
                                     "value": 1.0
                                 }
                             },
-                            "name": "Linear Function-3",
+                            "name": "Linear Function-2",
                             "type": {
                                 "generic": "Linear"
                             }
                         }
-                    ],
+                    },
                     "input_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "LinearCombination_Function_0_2": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6163,13 +6163,13 @@
                                         "scale": 1.0,
                                         "weights": null
                                     },
-                                    "name": "LinearCombination Function-7",
+                                    "name": "LinearCombination Function-0-2",
                                     "type": {
                                         "PNL": "LinearCombination",
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "name": "InputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -6201,8 +6201,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_1": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6227,7 +6227,7 @@
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "intercept",
                             "parameters": {
                                 "PNL": {
@@ -6253,8 +6253,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_0": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6274,12 +6274,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-2",
+                                    "name": "Linear Function-0",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "slope",
                             "parameters": {
                                 "PNL": {
@@ -6308,8 +6308,8 @@
                     "output_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_4": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6330,12 +6330,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-5",
+                                    "name": "Linear Function-4",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "OutputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -6389,8 +6389,8 @@
                     }
                 },
                 "task_input": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "Linear_Function_33": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -6421,17 +6421,17 @@
                                     "value": 1.0
                                 }
                             },
-                            "name": "Linear Function-34",
+                            "name": "Linear Function-33",
                             "type": {
                                 "generic": "Linear"
                             }
                         }
-                    ],
+                    },
                     "input_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "LinearCombination_Function_0_17": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6454,13 +6454,13 @@
                                         "scale": 1.0,
                                         "weights": null
                                     },
-                                    "name": "LinearCombination Function-22",
+                                    "name": "LinearCombination Function-0-17",
                                     "type": {
                                         "PNL": "LinearCombination",
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "name": "InputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -6492,8 +6492,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_32": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6518,7 +6518,7 @@
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "intercept",
                             "parameters": {
                                 "PNL": {
@@ -6544,8 +6544,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_31": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6565,12 +6565,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-33",
+                                    "name": "Linear Function-31",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "slope",
                             "parameters": {
                                 "PNL": {
@@ -6599,8 +6599,8 @@
                     "output_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_35": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6621,12 +6621,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-36",
+                                    "name": "Linear Function-35",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "OutputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -6680,8 +6680,8 @@
                     }
                 },
                 "word_hidden": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "Logistic_Function_4": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -6730,17 +6730,17 @@
                                     "value": 0.0
                                 }
                             },
-                            "name": "Logistic Function-2",
+                            "name": "Logistic Function-4",
                             "type": {
                                 "generic": "Logistic"
                             }
                         }
-                    ],
+                    },
                     "input_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "LinearCombination_Function_0_14": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6769,13 +6769,13 @@
                                         "scale": 1.0,
                                         "weights": null
                                     },
-                                    "name": "LinearCombination Function-19",
+                                    "name": "LinearCombination Function-0-14",
                                     "type": {
                                         "PNL": "LinearCombination",
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "name": "InputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -6813,8 +6813,8 @@
                         },
                         {
                             "dtype": "int64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_26": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6834,12 +6834,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-29",
+                                    "name": "Linear Function-26",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "bias",
                             "parameters": {
                                 "PNL": {
@@ -6865,8 +6865,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_24": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6886,12 +6886,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-25",
+                                    "name": "Linear Function-24",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "gain",
                             "parameters": {
                                 "PNL": {
@@ -6917,8 +6917,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_28": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6938,12 +6938,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-26",
+                                    "name": "Linear Function-28",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "offset",
                             "parameters": {
                                 "PNL": {
@@ -6969,8 +6969,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_27": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -6990,12 +6990,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-28",
+                                    "name": "Linear Function-27",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "scale",
                             "parameters": {
                                 "PNL": {
@@ -7021,8 +7021,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_25": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -7042,12 +7042,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-27",
+                                    "name": "Linear Function-25",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "x_0",
                             "parameters": {
                                 "PNL": {
@@ -7076,8 +7076,8 @@
                     "output_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_30": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -7098,12 +7098,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-31",
+                                    "name": "Linear Function-30",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "OutputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -7157,8 +7157,8 @@
                     }
                 },
                 "word_input": {
-                    "functions": [
-                        {
+                    "functions": {
+                        "Linear_Function_21": {
                             "args": {
                                 "PNL": {
                                     "enable_output_type_conversion": false,
@@ -7189,17 +7189,17 @@
                                     "value": 1.0
                                 }
                             },
-                            "name": "Linear Function-22",
+                            "name": "Linear Function-21",
                             "type": {
                                 "generic": "Linear"
                             }
                         }
-                    ],
+                    },
                     "input_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "LinearCombination_Function_0_11": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -7222,13 +7222,13 @@
                                         "scale": 1.0,
                                         "weights": null
                                     },
-                                    "name": "LinearCombination Function-16",
+                                    "name": "LinearCombination Function-0-11",
                                     "type": {
                                         "PNL": "LinearCombination",
                                         "generic": null
                                     }
                                 }
-                            ],
+                            },
                             "name": "InputPort-0",
                             "parameters": {
                                 "PNL": {
@@ -7260,8 +7260,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_20": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -7286,7 +7286,7 @@
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "intercept",
                             "parameters": {
                                 "PNL": {
@@ -7312,8 +7312,8 @@
                         },
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_19": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -7333,12 +7333,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-21",
+                                    "name": "Linear Function-19",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "slope",
                             "parameters": {
                                 "PNL": {
@@ -7367,8 +7367,8 @@
                     "output_ports": [
                         {
                             "dtype": "float64",
-                            "functions": [
-                                {
+                            "functions": {
+                                "Linear_Function_23": {
                                     "args": {
                                         "PNL": {
                                             "enable_output_type_conversion": false,
@@ -7389,12 +7389,12 @@
                                         "num_executions_before_finished": 0,
                                         "slope": 1.0
                                     },
-                                    "name": "Linear Function-24",
+                                    "name": "Linear Function-23",
                                     "type": {
                                         "generic": "Linear"
                                     }
                                 }
-                            ],
+                            },
                             "name": "OutputPort-0",
                             "parameters": {
                                 "PNL": {
